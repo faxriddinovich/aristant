@@ -1,0 +1,76 @@
+.explore{
+    font-size: 32px;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+}
+.text-gray{
+    color: #828282;
+    font-family: sans-serif;
+}
+.box{
+    overflow: hidden;
+    height: 440px !important;
+    position: relative;
+    box-shadow: 0px 10px 14px rgba(0, 0, 0, 0.07);
+    .second-box{
+        .author{
+            // margin-top: -325px;
+            color:#ffffff;
+            position: absolute;
+            font-size: 15px;
+            margin-top: 15px;
+            margin-left: 15px;
+            span{
+                font-weight: 600;
+                font-family: 'IBM Plex Sans Arabic', sans-serif;
+                font-family: 'Lato', sans-serif;
+                font-family: 'Montserrat', sans-serif;
+                font-family: 'Poppins', sans-serif;
+                font-family: 'Roboto', sans-serif;
+            }
+        }
+        img{
+            position: absolute;
+            margin-top: 0px;
+            z-index: -1;
+            width: 100%;
+            height: 375px;
+        }
+    }
+    .footer{
+        position: absolute;
+        bottom: 5px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 10px;
+        align-items: center;
+        margin-top: 0%;
+        p{
+            margin: 0%;
+            color: #828282;
+            font-size: 14px;
+        }
+        .left-content{
+            p{
+                margin: 0;
+            }
+            span{
+                font-size: 17px;
+                font-weight: 500;
+            }
+        }
+        .price{
+            p{
+                margin: 0%;
+            }
+            span{
+                color: #4D96FF;
+                font-size: 17px;
+                font-weight: 500;
+            }
+        }
+    }
+}
